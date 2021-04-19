@@ -5,6 +5,7 @@
     "apps/*"
   ],
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "dev": "lerna run --parallel dev"
   },
   "private": true,
