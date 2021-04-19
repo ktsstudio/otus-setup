@@ -1,3 +1,5 @@
 .idea
 node_modules
 apps/**/node_modules
+apps/internal/public
+app/external/.next
