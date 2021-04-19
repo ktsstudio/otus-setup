@@ -1,0 +1,24 @@
+{
+  "name": "@otus/external",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 9001"
+  },
+  "dependencies": {
+    "next": "^10.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/react": "^17.0.0",
+    "@types/styled-components": "^5.1.7",
+    "babel-plugin-styled-components": "^1.12.0",
+    "next-compose-plugins": "^2.2.1",
+    "next-plugin-custom-babel-config": "^1.0.4",
+    "next-transpile-modules": "4.1.0",
+    "typescript": "^4.1.3"
+  }
+}

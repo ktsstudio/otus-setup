@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "baseUrl": "..",
+  "paths": {
+    "shared/*": ["shared/src/*"],
+    "components/*": ["internal/src/components/*"]
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", ".eslintrc.js"]
+}
